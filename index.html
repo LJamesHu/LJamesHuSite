@@ -1,9 +1,24 @@
 ---
 layout: default
 title: Home
+pagination:
+  enabled: true
+  per_page: 6
+  indexpage: 'index'
+  sort_field: 'date'
+  sort_reverse: true
 ---
 
-{% if page.url == "/" %}
+<div class="article-post">
+<p style="width:80%;">I am a data scientist with a quantitative background in business from New York University and data science skills from Galvanize, looking to solve interesting problems using data-driven solutions. My well-rounded business acumen, mathematical background, and technical expertise make me a versatile data scientist with the skills to tackle any problem.</p>
+</div>
+
+<a target="_blank" class="btn front" href="{{site.baseurl}}/resume" class="button"><i class="far fa-file-alt"></i>&nbsp;&nbsp;View my resume</a>&nbsp;&nbsp;
+<a target="_blank" class="btn front" href="https://www.linkedin.com/in/ljameshu/" class="button"><i class="fab fa-linkedin"></i> LinkedIn profile</a>&nbsp;&nbsp;
+<a target="_blank" class="btn front" href="https://github.com/ljameshu" class="button"><i class="fab fa-github"></i> GitHub profile</a>
+
+<hr>
+
 
 <!-- Featured
 ================================================== -->
@@ -12,7 +27,7 @@ title: Home
         <h2><span>Featured</span></h2>
     </div>
     <div class="row">
-        
+
     {% for post in site.posts %}
 
         {% if post.featured == true %}
@@ -22,32 +37,30 @@ title: Home
         {% endif %}
 
     {% endfor %}
-        
+
     </div>
 </section>
-
-{% endif %}
 
 <!-- Posts Index
 ================================================== -->
 <section class="recent-posts">
-    
+
     <div class="section-title">
-        
-        <h2><span>All Stories</span></h2>
-        
+
+        <h2><span>Recent Posts</span></h2>
+
     </div>
-    
+
     <div class="row listrecent">
 
         {% for post in paginator.posts %}
 
-               {% include postbox.html %}          
+               {% include postbox.html %}
 
         {% endfor %}
-        
+
     </div>
-    
+
 </section>
 
 <!-- Pagination
@@ -55,7 +68,7 @@ title: Home
 <div class="bottompagination">
 <div class="pointerup"><i class="fa fa-caret-up"></i></div>
 <span class="navigation" role="navigation">
-    {% include pagination.html %}
+    <a href="{{ site.baseurl }}/blog">See All Posts</a>
 </span>
 </div>
 

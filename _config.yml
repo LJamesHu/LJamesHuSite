@@ -29,10 +29,10 @@ authors:
     description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
 # Plugins
-plugins: 
-  - jekyll-paginate
+plugins:
+  - jekyll-paginate-v2
   - jekyll-archives
-    
+
 # Archives
 jekyll-archives:
   enabled:
@@ -40,11 +40,17 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
-# Pagination 
-paginate: 6
-paginate_path: /page:num/
-    
+
+# # Pagination
+# paginate: 6
+# paginate_path: /page:num/
+
+pagination:
+  enabled: true
+  sort_field: 'date'
+  sort_reverse: true
+
 # Other
 markdown: kramdown
 highlighter: rouge
+destination: docs
