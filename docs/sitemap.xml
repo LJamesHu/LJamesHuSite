@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://ljameshu.github.io/LJamesHuSite/technical/2015/01/01/hello-world.html</loc>
+<lastmod>2015-01-01T00:00:00-08:00</lastmod>
+</url>
+<url>
+<loc>https://ljameshu.github.io/LJamesHuSite/technical/2015/12/01/tax-rates-compared-to-corruption.html</loc>
+<lastmod>2015-12-01T00:00:00-08:00</lastmod>
+</url>
+<url>
 <loc>https://ljameshu.github.io/LJamesHuSite/jekyll/tutorial/2018/01/11/customer-service.html</loc>
 <lastmod>2018-01-11T00:00:00-08:00</lastmod>
 </url>
@@ -63,6 +71,9 @@
 <loc>https://ljameshu.github.io/LJamesHuSite/resume.html</loc>
 </url>
 <url>
+<loc>https://ljameshu.github.io/LJamesHuSite/category/technical/</loc>
+</url>
+<url>
 <loc>https://ljameshu.github.io/LJamesHuSite/category/jekyll/</loc>
 </url>
 <url>
@@ -76,9 +87,6 @@
 </url>
 <url>
 <loc>https://ljameshu.github.io/LJamesHuSite/</loc>
-</url>
-<url>
-<loc>https://ljameshu.github.io/LJamesHuSite/page2/</loc>
 </url>
 <url>
 <loc>https://ljameshu.github.io/LJamesHuSite/assets/files/JamesHuResume.pdf</loc>
