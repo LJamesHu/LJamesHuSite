@@ -26,7 +26,7 @@ To simplify this, I created a script in Python with the BeautifulSoup library to
 For our company, we chose J.M. Smuckers and came up with a comprehensive and innovative plan to drive sales through Smuckers’ core values.
 
 <embed src="https://drive.google.com/viewerng/
-viewer?embedded=true&url={{site.baseurl}}/assets/files/nyu/SmuckersCaseStudy.pdf" style="height:600px;width:100%;">
+viewer?embedded=true&url={{site.url}}{{site.baseurl}}/assets/files/nyu/SmuckersCaseStudy.pdf" style="height:600px;width:100%;">
 
 [Link to Download Powerpoint]({{site.baseurl}}/assets/files/nyu/SmuckersCaseStudy.pptx)
 
@@ -39,7 +39,7 @@ The interesting part about this was how it took many of the concepts that we lea
 The project required a thorough analysis covering various risk exposures such as liquidity and credit risk, capital adequacy measures, profitability, and risk management tools that were being used. These gave interesting insights into the bank and also were doubly interesting in how they revealed the rather jarring changes due to the financial crisis in 2008.
 
 <embed src="https://drive.google.com/viewerng/
-viewer?embedded=true&url={{site.baseurl}}/assets/files/nyu/SovereignBankAnalysis.pdf" style="height:600px;width:100%;">
+viewer?embedded=true&url={{site.url}}{{site.baseurl}}/assets/files/nyu/SovereignBankAnalysis.pdf" style="height:600px;width:100%;">
 
 [Link to Download PDF Report]({{site.baseurl}}/assets/files/nyu/SovereignBankAnalysis.pdf)
 

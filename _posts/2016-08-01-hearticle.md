@@ -15,6 +15,6 @@ and highlight, resulting in a model that uses vector math to calculate highlight
 [Heart-icle Code on Github](https://github.com/LJamesHu/Heart-icle)
 
 <embed src="https://drive.google.com/viewerng/
-viewer?embedded=true&url={{site.baseurl}}/assets/files/Heart-icle.pdf" style="height:600px;width:100%;">
+viewer?embedded=true&url={{site.url}}{{site.baseurl}}/assets/files/Heart-icle.pdf" style="height:600px;width:100%;">
 
 [Link to Download PDF Report]({{site.baseurl}}/assets/files/Heart-icle.pdf)

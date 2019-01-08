@@ -5,8 +5,8 @@
     <description></description>
     <link>https://ljameshu.github.io/LJamesHuSite/</link>
     <atom:link href="https://ljameshu.github.io/LJamesHuSite/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Jan 2019 22:07:28 -0800</pubDate>
-    <lastBuildDate>Mon, 07 Jan 2019 22:07:28 -0800</lastBuildDate>
+    <pubDate>Mon, 07 Jan 2019 22:18:47 -0800</pubDate>
+    <lastBuildDate>Mon, 07 Jan 2019 22:18:47 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -38,7 +38,7 @@ and highlight, resulting in a model that uses vector math to calculate highlight
 &lt;p&gt;&lt;a href=&quot;https://github.com/LJamesHu/Heart-icle&quot;&gt;Heart-icle Code on Github&lt;/a&gt;&lt;/p&gt;
 
 &lt;embed src=&quot;https://drive.google.com/viewerng/
-viewer?embedded=true&amp;amp;url=/LJamesHuSite/assets/files/Heart-icle.pdf&quot; style=&quot;height:600px;width:100%;&quot; /&gt;
+viewer?embedded=true&amp;amp;url=https://ljameshu.github.io/LJamesHuSite/assets/files/Heart-icle.pdf&quot; style=&quot;height:600px;width:100%;&quot; /&gt;
 
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/Heart-icle.pdf&quot;&gt;Link to Download PDF Report&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -66,7 +66,7 @@ viewer?embedded=true&amp;amp;url=/LJamesHuSite/assets/files/Heart-icle.pdf&quot;
 &lt;p&gt;The code was written in Python and relied heavily on the BeautifulSoup library. Analysis and visualizations were done using matplotlib and Tableau.&lt;/p&gt;
 
 &lt;embed src=&quot;https://drive.google.com/viewerng/
-viewer?embedded=true&amp;amp;url=/LJamesHuSite/assets/files/YelpDataProject.pdf&quot; style=&quot;height:600px;width:100%;&quot; /&gt;
+viewer?embedded=true&amp;amp;url=https://ljameshu.github.io/LJamesHuSite/assets/files/YelpDataProject.pdf&quot; style=&quot;height:600px;width:100%;&quot; /&gt;
 
 &lt;hr /&gt;
 
@@ -96,7 +96,7 @@ viewer?embedded=true&amp;amp;url=/LJamesHuSite/assets/files/YelpDataProject.pdf&
 &lt;p&gt;The code was written in Python and relied heavily on the BeautifulSoup library to pull information from each of this guides. This was then all compiled into an exe file so Torte de Lini could quickly use it without any Python setup or additional files.&lt;/p&gt;
 
 &lt;embed src=&quot;https://drive.google.com/viewerng/
-viewer?embedded=true&amp;amp;url=/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.pdf&quot; style=&quot;height:600px;width:100%;&quot; /&gt;
+viewer?embedded=true&amp;amp;url=https://ljameshu.github.io/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.pdf&quot; style=&quot;height:600px;width:100%;&quot; /&gt;
 
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.csv&quot;&gt;Link to Download Sample CSV Data&lt;/a&gt;&lt;/p&gt;
 
@@ -136,7 +136,7 @@ viewer?embedded=true&amp;amp;url=/LJamesHuSite/assets/files/guideData-2015-11-14
 &lt;p&gt;For our company, we chose J.M. Smuckers and came up with a comprehensive and innovative plan to drive sales through Smuckers’ core values.&lt;/p&gt;
 
 &lt;embed src=&quot;https://drive.google.com/viewerng/
-viewer?embedded=true&amp;amp;url=/LJamesHuSite/assets/files/nyu/SmuckersCaseStudy.pdf&quot; style=&quot;height:600px;width:100%;&quot; /&gt;
+viewer?embedded=true&amp;amp;url=https://ljameshu.github.io/LJamesHuSite/assets/files/nyu/SmuckersCaseStudy.pdf&quot; style=&quot;height:600px;width:100%;&quot; /&gt;
 
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/SmuckersCaseStudy.pptx&quot;&gt;Link to Download Powerpoint&lt;/a&gt;&lt;/p&gt;
 
@@ -149,7 +149,7 @@ viewer?embedded=true&amp;amp;url=/LJamesHuSite/assets/files/nyu/SmuckersCaseStud
 &lt;p&gt;The project required a thorough analysis covering various risk exposures such as liquidity and credit risk, capital adequacy measures, profitability, and risk management tools that were being used. These gave interesting insights into the bank and also were doubly interesting in how they revealed the rather jarring changes due to the financial crisis in 2008.&lt;/p&gt;
 
 &lt;embed src=&quot;https://drive.google.com/viewerng/
-viewer?embedded=true&amp;amp;url=/LJamesHuSite/assets/files/nyu/SovereignBankAnalysis.pdf&quot; style=&quot;height:600px;width:100%;&quot; /&gt;
+viewer?embedded=true&amp;amp;url=https://ljameshu.github.io/LJamesHuSite/assets/files/nyu/SovereignBankAnalysis.pdf&quot; style=&quot;height:600px;width:100%;&quot; /&gt;
 
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/SovereignBankAnalysis.pdf&quot;&gt;Link to Download PDF Report&lt;/a&gt;&lt;/p&gt;
 
