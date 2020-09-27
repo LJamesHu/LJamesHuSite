@@ -55,3 +55,6 @@ pagination:
 markdown: kramdown
 highlighter: rouge
 destination: docs
+
+exclude:
+  - .jekyll-cache

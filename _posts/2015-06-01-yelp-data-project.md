@@ -17,8 +17,7 @@ This report shows the difficulties in the collection of the data, the analysis, 
 
 The code was written in Python and relied heavily on the BeautifulSoup library. Analysis and visualizations were done using matplotlib and Tableau.
 
-<embed src="https://drive.google.com/viewerng/
-viewer?embedded=true&url={{site.url}}{{site.baseurl}}/assets/files/YelpDataProject.pdf" style="height:600px;width:100%;">
+<object data="{{site.url}}{{site.baseurl}}/assets/files/YelpDataProject.pdf" width="100%" height="600" type='application/pdf'/>
 
 ---
 

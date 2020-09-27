@@ -23,7 +23,6 @@ The results were fairly interesting, with a decent accuracy rate at roughly 10%,
 
 [Heart-icle Code on Github](https://github.com/LJamesHu/Heart-icle)
 
-<embed src="https://drive.google.com/viewerng/
-viewer?embedded=true&url={{site.url}}{{site.baseurl}}/assets/files/Heart-icle.pdf" style="height:600px;width:100%;">
+<object data="{{site.url}}{{site.baseurl}}/assets/files/Heart-icle.pdf" width="100%" height="600" type='application/pdf'/>
 
 [Link to Download PDF Presentation]({{site.baseurl}}/assets/files/Heart-icle.pdf)
