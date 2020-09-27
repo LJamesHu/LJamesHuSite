@@ -1,0 +1,19 @@
+I"<p>For this group project, I mainly focused on data collection/scraping strategies and mass collection and storage of data, although I did help with the analysis portions and the overall writeup.</p>
+
+<p>This project was for a Practical Data Science class that was intended for MBA students but was fascinating across the board and one of my favorite classes during my time at New York University.</p>
+
+<p>This report shows the difficulties in the collection of the data, the analysis, and the visualization strategies we used for data. We found some interesting conclusions, one of which is that restaurants offering a sponsored deal typically perform poorly comparatively.</p>
+
+<p><a href="https://github.com/LJamesHu/Yelp-Data-Scraper">Data Scraping Code on Github</a></p>
+
+<p>The code was written in Python and relied heavily on the BeautifulSoup library. Analysis and visualizations were done using matplotlib and Tableau.</p>
+
+<embed src="https://drive.google.com/viewerng/
+viewer?embedded=true&amp;url=https://ljameshu.github.io/LJamesHuSite/assets/files/YelpDataProject.pdf" style="height:600px;width:100%;" />
+
+<hr />
+
+<p><a href="/LJamesHuSite/assets/files/YelpDataProject.pdf">Link to Download PDF Report</a></p>
+
+<p><a href="/LJamesHuSite/assets/files/yelpr_East_Village.csv">Sample Data</a></p>
+:ET

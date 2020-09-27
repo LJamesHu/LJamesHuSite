@@ -1,0 +1,18 @@
+I"Ñ
+<p>The Dota 2 Hero Builds Project is a project my friend <a href="https://twitter.com/tortedelini">Michael Cohen</a> started. I provide a lot of the technical support to his project so he can get it running smoothly. I host his site <a href="http://tortedelini.com/">Armchair Athleticism / Torte De Lini.com</a> on my own VPS server on a WordPress installation. I have also provided significant data analysis assistance, being a big part of his <a href="http://tortedelini.com/2018/12/10/5-years-350-million-2018-dota-builds-project-year-review/">5 years, 350 million</a>, <a href="http://tortedelini.com/2018/02/10/4-years-275-million-2017-dota-builds-project-year-review/">4 years, 275 million</a>, <a href="http://tortedelini.com/2016/11/17/3-years-170-million-dota-builds-project-year-review/">3 years, 170 million</a>, <a href="http://tortedelini.com/2015/10/28/2-years-100-million-dota-builds-project-overview/">2 years, 100 million</a>, and <a href="http://tortedelini.com/2014/11/17/1-year-40-million-dota-builds-project-overview/">1 Year, 40 million</a> subscriptions benchmark articles and analysis, assisting in the data visualization and writing.</p>
+
+<p>To assist in getting statistics for all of the over 100 guides, I created a data collection scraper and analyzer for near instant calculation and parsing of the data. Normally it would take up to an hour to manually calculate and pull data every 2 weeks, which was automated into a single script that collects all the data and outputs a csv for intake.</p>
+
+<p><a href="https://github.com/LJamesHu/Dota2GuideInfoScraper">Dota 2 Guide Info Scraper on GitHub</a></p>
+
+<p>The code was written in Python and relied heavily on the BeautifulSoup library to pull information from each of this guides. This was then all compiled into an exe file so Torte de Lini could quickly use it without any Python setup or additional files.</p>
+
+<embed src="https://drive.google.com/viewerng/
+viewer?embedded=true&amp;url=https://ljameshu.github.io/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.pdf" style="height:600px;width:100%;" />
+
+<p><a href="/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.csv">Link to Download Sample CSV Data</a></p>
+
+<p>In addition to that, since Torte De Lini has many guides, so it is rather annoying to get people to subscribe to, favorite, or rate his guides. I learned how to make bookmarklets and designed a bookmarklet that allowed people to like, favorite and subscribe to all of his guides in one button press. It was a rather interesting project since I was relatively unfamiliar with bookmarklets and had to figure out how to set it up to work correctly.</p>
+
+<p><a href="https://github.com/LJamesHu/Dota2SubLikeFav">Dota2SubLikeFav Bookmarklets on GitHub</a></p>
+:ET
