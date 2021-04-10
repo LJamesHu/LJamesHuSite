@@ -15,7 +15,7 @@ Technologically, it also felt a little problematic for me. It was based off Word
 
 Looking around at the options, a lot of things pointed to using Jekyll. While it's a bit played out, Jekyll is the language of tech people, who don't need a WYSIWG editor, who want to get things done quickly, who want to host on GitHub Pages for free.
 
-After having done some work with getting the [Luminar Extra Life Site]({% post_url 2017-02-01-luminar-extra-life %}) online, I felt like GitHub would be the right place to have host my new site.
+After having done some work with getting the [Luminar Extra Life Site]({% post_url 2017-02-01-extra-life-2016 %}) online, I felt like GitHub would be the right place to have host my new site.
 
 Additionally, I drew a lot of inspiration from [Lilian Chen](http://www.lilchen.com/blog/site-redesign-process/). The website style was very close to what I wanted although far more artistic than I had the ability to continuously do. I wanted to try and tweak her design into something that I would love to use. But it did give me a sense of what I wanted and as a not designer, her breakdown of her approach helped me also refine what I was looking for, and what I didn't really care about.
 
