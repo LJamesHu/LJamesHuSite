@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Dota Guide Monte Carlo Simulation"
+title:  "DOTA 2 Guides Monte Carlo Simulation"
 categories: [ technical, python ]
 image: assets/images/dota2_monte_carlo_bar.png
 comments: true
 ---
 
-Torte de Lini, an old friend that I've also been working with to set up technical infrastructure for his [Dota 2 project]({% post_url 2015-05-01-dota-2-hero-builds-project %}), approached me with a new, interesting question. Given that his guides have so many subscribers, how often, and how many people use his guides in a game? While we can't get the exact numbers, we can come up with a rough estimation given a bunch of numbers that he's been collecting.
+Torte de Lini, an old friend that I've also been working with to set up technical infrastructure for his [Dota 2 Heroes Build Project]({% post_url 2015-05-01-dota-2-hero-builds-project %}), approached me with a new, interesting question. Given that his guides have so many subscribers, how often, and how many people use his guides in a game? While we can't get the exact numbers, we can come up with a rough estimation given a bunch of numbers that he's been collecting.
 
 Given that we know that how many games are played daily (dota.rgp.io), how many games are played for each hero (dotabuff.com), and how many games for a specific hero use a Torte de Lini guide by day (available in-game), we can then get an estimate of how many games have at least one person using a Torte de Lini guide.
 

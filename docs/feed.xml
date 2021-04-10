@@ -5,8 +5,8 @@
     <description></description>
     <link>/LJamesHuSite/</link>
     <atom:link href="/LJamesHuSite/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Apr 2021 05:22:49 -0700</pubDate>
-    <lastBuildDate>Sat, 10 Apr 2021 05:22:49 -0700</lastBuildDate>
+    <pubDate>Sat, 10 Apr 2021 05:35:05 -0700</pubDate>
+    <lastBuildDate>Sat, 10 Apr 2021 05:35:05 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -29,8 +29,8 @@
       </item>
     
       <item>
-        <title>Dota Guide Monte Carlo Simulation</title>
-        <description>&lt;p&gt;Torte de Lini, an old friend that I’ve also been working with to set up technical infrastructure for his &lt;a href=&quot;/LJamesHuSite/2015/05/01/dota-2-hero-builds-project.html&quot;&gt;Dota 2 project&lt;/a&gt;, approached me with a new, interesting question. Given that his guides have so many subscribers, how often, and how many people use his guides in a game? While we can’t get the exact numbers, we can come up with a rough estimation given a bunch of numbers that he’s been collecting.&lt;/p&gt;
+        <title>DOTA 2 Guides Monte Carlo Simulation</title>
+        <description>&lt;p&gt;Torte de Lini, an old friend that I’ve also been working with to set up technical infrastructure for his &lt;a href=&quot;/LJamesHuSite/2015/05/01/dota-2-hero-builds-project.html&quot;&gt;Dota 2 Heroes Build Project&lt;/a&gt;, approached me with a new, interesting question. Given that his guides have so many subscribers, how often, and how many people use his guides in a game? While we can’t get the exact numbers, we can come up with a rough estimation given a bunch of numbers that he’s been collecting.&lt;/p&gt;
 
 &lt;p&gt;Given that we know that how many games are played daily (dota.rgp.io), how many games are played for each hero (dotabuff.com), and how many games for a specific hero use a Torte de Lini guide by day (available in-game), we can then get an estimate of how many games have at least one person using a Torte de Lini guide.&lt;/p&gt;
 
@@ -51,8 +51,8 @@
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/Dota 2 Monte Carlo.ipynb&quot;&gt;Dota 2 Monte Carlo ipynb&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Feb 2019 00:00:00 -0800</pubDate>
-        <link>/LJamesHuSite/2019/02/01/dota-guides-monte-carlo-simulation.html</link>
-        <guid isPermaLink="true">/LJamesHuSite/2019/02/01/dota-guides-monte-carlo-simulation.html</guid>
+        <link>/LJamesHuSite/2019/02/01/dota-2-guides-monte-carlo-simulation.html</link>
+        <guid isPermaLink="true">/LJamesHuSite/2019/02/01/dota-2-guides-monte-carlo-simulation.html</guid>
         
         
         <category>technical</category>
@@ -186,9 +186,9 @@
     
       <item>
         <title>Yelp Data Project</title>
-        <description>&lt;p&gt;For this group project, I mainly focused on data collection/scraping strategies and mass collection and storage of data, although I did help with the analysis portions and the overall writeup.&lt;/p&gt;
+        <description>&lt;p&gt;Yelp is the premier site of restaurant review and rating data in the United States. Although Yelp has an API, it’s not quite sufficient for any meaningful analysis.&lt;/p&gt;
 
-&lt;p&gt;This project was for a Practical Data Science class that was intended for MBA students but was fascinating across the board and one of my favorite classes during my time at New York University.&lt;/p&gt;
+&lt;p&gt;This project was for a Practical Data Science class that was intended for MBA students but was fascinating across the board and one of my favorite classes during my time at New York University. For this group project, I mainly focused on data collection/scraping strategies and mass collection and storage of data, although I did help with the analysis portions and the overall writeup.&lt;/p&gt;
 
 &lt;p&gt;This report shows the difficulties in the collection of the data, the analysis, and the visualization strategies we used for data. We found some interesting conclusions, one of which is that restaurants offering a sponsored deal typically perform poorly comparatively.&lt;/p&gt;
 
@@ -232,6 +232,10 @@
 &lt;p&gt;In addition to that, since Torte De Lini has many guides, so it is rather annoying to get people to subscribe to, favorite, or rate his guides. I learned how to make bookmarklets and designed a bookmarklet that allowed people to like, favorite and subscribe to all of his guides in one button press. It was a rather interesting project since I was relatively unfamiliar with bookmarklets and had to figure out how to set it up to work correctly.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/LJamesHu/Dota2SubLikeFav&quot;&gt;Dota2SubLikeFav Bookmarklets on GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In order to answer the question of how many games have at least one person who used a guide by Torte De Lini, I ran a Monte Carlo simulation to estimate this.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/LJamesHuSite/2019/02/01/dota-2-guides-monte-carlo-simulation.html&quot;&gt;DOTA 2 Guides Monte Carlo Simulation&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
         <link>/LJamesHuSite/2015/05/01/dota-2-hero-builds-project.html</link>
@@ -283,6 +287,7 @@
 &lt;h3 id=&quot;other-projects&quot;&gt;Other Projects&lt;/h3&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/2015/06/01/yelp-data-project.html&quot;&gt;Practical Data Science - Yelp Data Project&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/GlobalPerspectivesMexico.pdf&quot;&gt;Global Perspectives on Enterprise Systems – Mexico: Problems, Strengths and the Path&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/GlobalPerspectivesIndiaPresentation.pdf&quot;&gt;Global Perspectives on Enterprise Systems – India Presentation&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/GrupoDammAnalysis.pdf&quot;&gt;International Studies Program – Grupo Damm Analysis Presentation&lt;/a&gt;: A class presentation structured around learning about international business, featuring a one week trip to Barcelona to learn and study the culture.&lt;/li&gt;

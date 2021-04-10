@@ -22,3 +22,7 @@ The code was written in Python and relied heavily on the BeautifulSoup library t
 In addition to that, since Torte De Lini has many guides, so it is rather annoying to get people to subscribe to, favorite, or rate his guides. I learned how to make bookmarklets and designed a bookmarklet that allowed people to like, favorite and subscribe to all of his guides in one button press. It was a rather interesting project since I was relatively unfamiliar with bookmarklets and had to figure out how to set it up to work correctly.
 
 [Dota2SubLikeFav Bookmarklets on GitHub](https://github.com/LJamesHu/Dota2SubLikeFav)
+
+In order to answer the question of how many games have at least one person who used a guide by Torte De Lini, I ran a Monte Carlo simulation to estimate this.
+
+[DOTA 2 Guides Monte Carlo Simulation]({% post_url 2019-02-01-dota-2-guides-monte-carlo-simulation %})

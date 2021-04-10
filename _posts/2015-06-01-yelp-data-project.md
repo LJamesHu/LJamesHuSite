@@ -6,10 +6,9 @@ image: assets/images/yelp.png
 featured: true
 comments: true
 ---
+Yelp is the premier site of restaurant review and rating data in the United States. Although Yelp has an API, it's not quite sufficient for any meaningful analysis.
 
-For this group project, I mainly focused on data collection/scraping strategies and mass collection and storage of data, although I did help with the analysis portions and the overall writeup.
-
-This project was for a Practical Data Science class that was intended for MBA students but was fascinating across the board and one of my favorite classes during my time at New York University.
+This project was for a Practical Data Science class that was intended for MBA students but was fascinating across the board and one of my favorite classes during my time at New York University. For this group project, I mainly focused on data collection/scraping strategies and mass collection and storage of data, although I did help with the analysis portions and the overall writeup.
 
 This report shows the difficulties in the collection of the data, the analysis, and the visualization strategies we used for data. We found some interesting conclusions, one of which is that restaurants offering a sponsored deal typically perform poorly comparatively.
 

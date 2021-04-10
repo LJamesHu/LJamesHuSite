@@ -43,6 +43,7 @@ The project required a thorough analysis covering various risk exposures such as
 
 ### Other Projects
 
+* [Practical Data Science - Yelp Data Project]({% post_url 2015-06-01-yelp-data-project %})
 * [Global Perspectives on Enterprise Systems – Mexico: Problems, Strengths and the Path]({{site.baseurl}}/assets/files/nyu/GlobalPerspectivesMexico.pdf)
 * [Global Perspectives on Enterprise Systems – India Presentation]({{site.baseurl}}/assets/files/nyu/GlobalPerspectivesIndiaPresentation.pdf)
 * [International Studies Program – Grupo Damm Analysis Presentation]({{site.baseurl}}/assets/files/nyu/GrupoDammAnalysis.pdf): A class presentation structured around learning about international business, featuring a one week trip to Barcelona to learn and study the culture.
