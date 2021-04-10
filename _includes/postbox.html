@@ -23,8 +23,7 @@
                 {% endif %} -->
                 <div class="after-post-tags">
                     <ul class="tags">
-                        {% assign sortedCategories = post.categories | sort %}
-                        {% for category in sortedCategories %}
+                        {% for category in post.categories %}
                         <li>
                          <a href="{{ site.baseurl }}/{{ category | slugify }}/">{{ category }}</a>
                         </li>
