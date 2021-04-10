@@ -3,7 +3,6 @@ layout: post
 title:  "NYU Projects"
 categories: [ technical ]
 image: assets/images/stern.jpg
-featured: true
 comments: true
 ---
 

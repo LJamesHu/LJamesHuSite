@@ -3,6 +3,7 @@ layout: post
 title:  "Making A New Personal Site - Jekyll Edition"
 categories: [ technical ]
 image: assets/images/new_jekyll_site_2018.png
+featured: true
 comments: true
 ---
 Profile sites are basically a person's way of interacting and showing the outside world the kind of work you've done. I've had a profile site for a while but never really "loved" it. I've had a website since 2016, to serve as a place to link to when showing people work and also have an email that isn't **@gmail.com**.
