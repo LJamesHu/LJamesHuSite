@@ -5,8 +5,8 @@
     <description></description>
     <link>/LJamesHuSite/</link>
     <atom:link href="/LJamesHuSite/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Apr 2021 12:38:49 -0700</pubDate>
-    <lastBuildDate>Sat, 10 Apr 2021 12:38:49 -0700</lastBuildDate>
+    <pubDate>Sat, 10 Apr 2021 12:41:36 -0700</pubDate>
+    <lastBuildDate>Sat, 10 Apr 2021 12:41:36 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -303,6 +303,8 @@
         <link>/LJamesHuSite/2015/04/01/nyu-projects.html</link>
         <guid isPermaLink="true">/LJamesHuSite/2015/04/01/nyu-projects.html</guid>
         
+        
+        <category>business</category>
         
         <category>technical</category>
         

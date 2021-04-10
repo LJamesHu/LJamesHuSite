@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NYU Projects"
-categories: [ technical ]
+categories: [ business, technical ]
 image: assets/images/stern.jpg
 comments: true
 ---
