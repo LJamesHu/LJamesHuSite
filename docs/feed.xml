@@ -5,8 +5,8 @@
     <description></description>
     <link>https://ljameshu.github.io/LJamesHuSite/</link>
     <atom:link href="https://ljameshu.github.io/LJamesHuSite/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Apr 2021 20:53:45 -0700</pubDate>
-    <lastBuildDate>Fri, 09 Apr 2021 20:53:45 -0700</lastBuildDate>
+    <pubDate>Fri, 09 Apr 2021 21:47:10 -0700</pubDate>
+    <lastBuildDate>Fri, 09 Apr 2021 21:47:10 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -73,7 +73,7 @@
 
 &lt;p&gt;Looking around at the options, a lot of things pointed to using Jekyll. While it’s a bit played out, Jekyll is the language of tech people, who don’t need a WYSIWG editor, who want to get things done quickly, who want to host on GitHub Pages for free.&lt;/p&gt;
 
-&lt;p&gt;After having done some work with getting the &lt;a href=&quot;/LJamesHuSite/technical/2017/02/01/luminar-extra-life.html&quot;&gt;Luminar Extra Life Site&lt;/a&gt; online, I felt like GitHub would be the right place to have host my new site.&lt;/p&gt;
+&lt;p&gt;After having done some work with getting the &lt;a href=&quot;/LJamesHuSite/technical/2017/02/01/extra-life-2016.html&quot;&gt;Luminar Extra Life Site&lt;/a&gt; online, I felt like GitHub would be the right place to have host my new site.&lt;/p&gt;
 
 &lt;p&gt;Additionally, I drew a lot of inspiration from &lt;a href=&quot;http://www.lilchen.com/blog/site-redesign-process/&quot;&gt;Lilian Chen&lt;/a&gt;. The website style was very close to what I wanted although far more artistic than I had the ability to continuously do. I wanted to try and tweak her design into something that I would love to use. But it did give me a sense of what I wanted and as a not designer, her breakdown of her approach helped me also refine what I was looking for, and what I didn’t really care about.&lt;/p&gt;
 
@@ -126,8 +126,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/LJamesHu/LuminarExtraLife/blob/master/itembundler.py&quot;&gt;Luminar Extra Life Code&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Feb 2017 00:00:00 -0800</pubDate>
-        <link>https://ljameshu.github.io/LJamesHuSite/technical/2017/02/01/luminar-extra-life.html</link>
-        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/2017/02/01/luminar-extra-life.html</guid>
+        <link>https://ljameshu.github.io/LJamesHuSite/technical/2017/02/01/extra-life-2016.html</link>
+        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/2017/02/01/extra-life-2016.html</guid>
         
         
         <category>technical</category>
