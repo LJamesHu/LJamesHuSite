@@ -266,6 +266,7 @@ License: https://www.wowthemes.net/freebies-license/
 }
  .share {
      text-align:center;
+     padding-left: 20px;
 }
  .share p {
      margin-bottom:10px;
@@ -384,7 +385,7 @@ License: https://www.wowthemes.net/freebies-license/
  ul.tags {
      list-style:none;
      padding-left:0;
-     margin:0 0 3rem 0;
+     /*margin:0 0 3rem 0;*/
 }
  ul.tags li {
      display:inline-block;
@@ -392,7 +393,7 @@ License: https://www.wowthemes.net/freebies-license/
 }
  ul.tags li a {
      background:rgba(0,0,0,.05);
-     color:rgba(0,0,0,.6);
+     /*color:rgba(0,0,0,.6);*/
      border-radius:3px;
      padding:5px 10px;
 }
@@ -560,6 +561,9 @@ License: https://www.wowthemes.net/freebies-license/
 }
  img {
     max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
  .bottompagination span.navigation {
      display:block;
@@ -665,3 +669,21 @@ License: https://www.wowthemes.net/freebies-license/
  .card .img-fluid {
     width:100%;
 }
+  ul.pager {
+    text-align: center;
+    list-style: none;
+}
+  ul.pager li {
+    display: inline;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px;
+}
+  .selected{
+    background-color: #00ab6b10;
+}
+  .card-body{
+    padding-bottom: 0px;
+}
+
+

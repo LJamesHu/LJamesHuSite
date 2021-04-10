@@ -1,1 +1,1 @@
-Sitemap: https://ljameshu.github.io/LJamesHuSite/sitemap.xml
+Sitemap: /sitemap.xml

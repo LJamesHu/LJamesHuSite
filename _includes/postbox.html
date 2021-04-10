@@ -4,12 +4,12 @@
 <div class="col-lg-4 col-md-6 mb-30px card-group">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="{{ post.url | absolute_url }}">
-                {% if post.image %} <img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | absolute_url }}{% endif %}" alt="{{ post.title }}"> {% endif %}
+            <a href="{{ post.url | relative_url }}">
+                {% if post.image %} <img class="img-fluid" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | relative_url }}{% endif %}" alt="{{ post.title }}"> {% endif %}
             </a>
         </div>
         <div class="card-body">
-            <h2 class="card-title"><a class="text-dark" href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+            <h2 class="card-title"><a class="text-dark" href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:20 }}</h4>
         </div>
        <div class="card-footer bg-white">
@@ -21,6 +21,16 @@
                 <span class="author-meta">
                 <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
                 {% endif %} -->
+                <div class="after-post-tags">
+                    <ul class="tags">
+                        {% assign sortedCategories = post.categories | sort %}
+                        {% for category in sortedCategories %}
+                        <li>
+                         <a href="{{ site.baseurl }}/{{ category | slugify }}/">{{ category }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
                 <span class="post-date">{{ post.date | date_to_string }}</span>
                 </span>
                 <div class="clearfix"></div>

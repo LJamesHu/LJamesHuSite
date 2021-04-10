@@ -1,25 +1,35 @@
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a  class="ml-1 mr-1" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <span class="ml-1 mr-1">{{ page }}</span>
-    {% elsif page == 1 %}
-      <a  class="ml-1 mr-1" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a  class="ml-1 mr-1" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+<ul class="pager">
+    {% if paginator.first_page %}
+    <li class="previous">
+        <a href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' }}">&nbsp;First</a>
+    </li>
     {% endif %}
-  {% endfor %}
 
-  {% if paginator.next_page %}
-    <a  class="ml-1 mr-1" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&nbsp;&larr; Prev</a>
+    </li>
+    {% endif %}
+
+    {% if paginator.page_trail %}
+      {% for trail in paginator.page_trail %}
+        <li {% if page.url == trail.path %}class="selected"{% endif %}>
+            <a href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' }}" title="{{trail.title}}">&nbsp;{{ trail.num }}</a>
+        </li>
+      {% endfor %}
+    {% endif %}
+
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&nbsp;Next &rarr;</a>
+    </li>
+    {% endif %}
+
+     {% if paginator.last_page %}
+    <li class="previous">
+        <a href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' }}">&nbsp;Last&nbsp;</a>
+    </li>
+    {% endif %}
+</ul>
 {% endif %}
