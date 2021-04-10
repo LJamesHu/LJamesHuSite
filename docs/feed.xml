@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>https://ljameshu.github.io/LJamesHuSite/</link>
-    <atom:link href="https://ljameshu.github.io/LJamesHuSite/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 27 Sep 2020 03:10:06 -0700</pubDate>
-    <lastBuildDate>Sun, 27 Sep 2020 03:10:06 -0700</lastBuildDate>
+    <link>http://localhost:4000/LJamesHuSite/</link>
+    <atom:link href="http://localhost:4000/LJamesHuSite/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 09 Apr 2021 16:18:57 -0700</pubDate>
+    <lastBuildDate>Fri, 09 Apr 2021 16:18:57 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -16,8 +16,8 @@
 &lt;p&gt;This is basically marking the relaunch of the site. Given that Wordpress site felt a little outdated in terms of design, structure, and my own ability to customize it, I decided to move towards a Jekyll solution hosted on Github Pages. Part test, part just fun project to revamp and possibly make a real blog that I can be proud of.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Oct 2018 00:00:00 -0700</pubDate>
-        <link>https://ljameshu.github.io/LJamesHuSite/technical/2018/10/01/hello-world-version-2-electric-boogaloo.html</link>
-        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/2018/10/01/hello-world-version-2-electric-boogaloo.html</guid>
+        <link>http://localhost:4000/LJamesHuSite/technical/2018/10/01/hello-world-version-2-electric-boogaloo.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/2018/10/01/hello-world-version-2-electric-boogaloo.html</guid>
         
         
         <category>technical</category>
@@ -33,8 +33,8 @@
 &lt;p&gt;Afterwards I &lt;a href=&quot;https://np.reddit.com/r/dataisbeautiful/comments/3p5awo/tax_rates_vs_corruptions_perceptions_index_oc/&quot;&gt;posted it on reddit&lt;/a&gt;, which was somewhat received well by the DataIsBeautiful subreddit and gave me some valuable input on visualization design.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Dec 2016 00:00:00 -0800</pubDate>
-        <link>https://ljameshu.github.io/LJamesHuSite/technical/2016/12/01/tax-rates-compared-to-corruption.html</link>
-        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/2016/12/01/tax-rates-compared-to-corruption.html</guid>
+        <link>http://localhost:4000/LJamesHuSite/technical/2016/12/01/tax-rates-compared-to-corruption.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/2016/12/01/tax-rates-compared-to-corruption.html</guid>
         
         
         <category>technical</category>
@@ -43,7 +43,7 @@
     
       <item>
         <title>Heart-icle</title>
-        <description>&lt;p&gt;Heart-icle is a project to solve the problem of most summaries out there. There isso much news and articles out there to read and not enough time to actually read them. Summaries on sites right now are designed to specifically NOT give you the information you want, to entice you to click in order to actually get into the meat and bones.&lt;/p&gt;
+        <description>&lt;p&gt;Heart-icle is a project to solve the problem of most summaries out there. There is so much news and articles out there to read and not enough time to actually read them. Summaries on sites right now are designed to specifically NOT give you the information you want, to entice you to click in order to actually get into the meat and bones.&lt;/p&gt;
 
 &lt;p&gt;My proposal was to make a better, more intelligent summarizer. While there are some acceptable summarizers such as TextRank, which use a graph-based ranking model for text processing, somewhat analogous to Google’s PageRank, but for text. However it isn’t trained for it, just happens to leverage graphs intelligently to come up with semi-useful summary extractions, that may not be meaningful. I wanted to make a better summarizer.&lt;/p&gt;
 
@@ -59,13 +59,13 @@
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/LJamesHu/Heart-icle&quot;&gt;Heart-icle Code on Github&lt;/a&gt;&lt;/p&gt;
 
-&lt;object data=&quot;https://ljameshu.github.io/LJamesHuSite/assets/files/Heart-icle.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot; /&gt;
+&lt;object data=&quot;http://localhost:4000/LJamesHuSite/assets/files/Heart-icle.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/Heart-icle.pdf&quot;&gt;Link to Download PDF Presentation&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Aug 2016 00:00:00 -0700</pubDate>
-        <link>https://ljameshu.github.io/LJamesHuSite/technical/python/2016/08/01/hearticle.html</link>
-        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/python/2016/08/01/hearticle.html</guid>
+        <link>http://localhost:4000/LJamesHuSite/technical/python/2016/08/01/hearticle.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/python/2016/08/01/hearticle.html</guid>
         
         
         <category>technical</category>
@@ -86,7 +86,7 @@
 
 &lt;p&gt;The code was written in Python and relied heavily on the BeautifulSoup library. Analysis and visualizations were done using matplotlib and Tableau.&lt;/p&gt;
 
-&lt;object data=&quot;https://ljameshu.github.io/LJamesHuSite/assets/files/YelpDataProject.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot; /&gt;
+&lt;object data=&quot;http://localhost:4000/LJamesHuSite/assets/files/YelpDataProject.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
 &lt;hr /&gt;
 
@@ -95,8 +95,8 @@
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/yelpr_East_Village.csv&quot;&gt;Sample Data&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 -0700</pubDate>
-        <link>https://ljameshu.github.io/LJamesHuSite/technical/python/2015/06/01/yelp-data-project.html</link>
-        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/python/2015/06/01/yelp-data-project.html</guid>
+        <link>http://localhost:4000/LJamesHuSite/technical/python/2015/06/01/yelp-data-project.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/python/2015/06/01/yelp-data-project.html</guid>
         
         
         <category>technical</category>
@@ -115,7 +115,7 @@
 
 &lt;p&gt;The code was written in Python and relied heavily on the BeautifulSoup library to pull information from each of this guides. This was then all compiled into an exe file so Torte de Lini could quickly use it without any Python setup or additional files.&lt;/p&gt;
 
-&lt;object data=&quot;https://ljameshu.github.io/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot; /&gt;
+&lt;object data=&quot;http://localhost:4000/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.csv&quot;&gt;Link to Download Sample CSV Data&lt;/a&gt;&lt;/p&gt;
 
@@ -124,8 +124,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/LJamesHu/Dota2SubLikeFav&quot;&gt;Dota2SubLikeFav Bookmarklets on GitHub&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
-        <link>https://ljameshu.github.io/LJamesHuSite/technical/python/2015/05/01/dota-2-hero-builds-project.html</link>
-        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/python/2015/05/01/dota-2-hero-builds-project.html</guid>
+        <link>http://localhost:4000/LJamesHuSite/technical/python/2015/05/01/dota-2-hero-builds-project.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/python/2015/05/01/dota-2-hero-builds-project.html</guid>
         
         
         <category>technical</category>
@@ -154,7 +154,7 @@
 
 &lt;p&gt;For our company, we chose J.M. Smuckers and came up with a comprehensive and innovative plan to drive sales through Smuckers’ core values.&lt;/p&gt;
 
-&lt;object data=&quot;https://ljameshu.github.io/LJamesHuSite/assets/files/nyu/SmuckersCaseStudy.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot; /&gt;
+&lt;object data=&quot;http://localhost:4000/LJamesHuSite/assets/files/nyu/SmuckersCaseStudy.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/SmuckersCaseStudy.pptx&quot;&gt;Link to Download Powerpoint&lt;/a&gt;&lt;/p&gt;
 
@@ -166,7 +166,7 @@
 
 &lt;p&gt;The project required a thorough analysis covering various risk exposures such as liquidity and credit risk, capital adequacy measures, profitability, and risk management tools that were being used. These gave interesting insights into the bank and also were doubly interesting in how they revealed the rather jarring changes due to the financial crisis in 2008.&lt;/p&gt;
 
-&lt;object data=&quot;https://ljameshu.github.io/LJamesHuSite/assets/files/nyu/SovereignBankAnalysis.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot; /&gt;
+&lt;object data=&quot;http://localhost:4000/LJamesHuSite/assets/files/nyu/SovereignBankAnalysis.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/SovereignBankAnalysis.pdf&quot;&gt;Link to Download PDF Report&lt;/a&gt;&lt;/p&gt;
 
@@ -185,8 +185,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 01 Apr 2015 00:00:00 -0700</pubDate>
-        <link>https://ljameshu.github.io/LJamesHuSite/technical/2015/04/01/nyu-projects.html</link>
-        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/2015/04/01/nyu-projects.html</guid>
+        <link>http://localhost:4000/LJamesHuSite/technical/2015/04/01/nyu-projects.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/2015/04/01/nyu-projects.html</guid>
         
         
         <category>technical</category>
@@ -200,8 +200,8 @@
 &lt;p&gt;This is just a test first post to make sure everything works!&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>https://ljameshu.github.io/LJamesHuSite/technical/2015/01/01/hello-world.html</link>
-        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/2015/01/01/hello-world.html</guid>
+        <link>http://localhost:4000/LJamesHuSite/technical/2015/01/01/hello-world.html</link>
+        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/2015/01/01/hello-world.html</guid>
         
         
         <category>technical</category>

@@ -7,7 +7,7 @@ featured: true
 comments: true
 ---
 
-Heart-icle is a project to solve the problem of most summaries out there. There isso much news and articles out there to read and not enough time to actually read them. Summaries on sites right now are designed to specifically NOT give you the information you want, to entice you to click in order to actually get into the meat and bones.
+Heart-icle is a project to solve the problem of most summaries out there. There is so much news and articles out there to read and not enough time to actually read them. Summaries on sites right now are designed to specifically NOT give you the information you want, to entice you to click in order to actually get into the meat and bones.
 
 My proposal was to make a better, more intelligent summarizer. While there are some acceptable summarizers such as TextRank, which use a graph-based ranking model for text processing, somewhat analogous to Google's PageRank, but for text. However it isn't trained for it, just happens to leverage graphs intelligently to come up with semi-useful summary extractions, that may not be meaningful. I wanted to make a better summarizer.
 
@@ -23,6 +23,6 @@ The results were fairly interesting, with a decent accuracy rate at roughly 10%,
 
 [Heart-icle Code on Github](https://github.com/LJamesHu/Heart-icle)
 
-<object data="{{site.url}}{{site.baseurl}}/assets/files/Heart-icle.pdf" width="100%" height="600" type='application/pdf'/>
+<object data="{{site.url}}{{site.baseurl}}/assets/files/Heart-icle.pdf" width="100%" height="600" type='application/pdf'></object>
 
 [Link to Download PDF Presentation]({{site.baseurl}}/assets/files/Heart-icle.pdf)
