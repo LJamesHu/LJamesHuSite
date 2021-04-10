@@ -6,7 +6,7 @@
 
 <link rel="icon" href="/LJamesHuSite/assets/images/logo.png">
 
-<title>Tax Rates Compared to Corruption | James Hu</title>
+<title>Dota Guide Monte Carlo Simulation | James Hu</title>
 
 
 
@@ -120,13 +120,13 @@
 
     <ul>
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=Tax Rates Compared to Corruption&url=http://localhost:4000/LJamesHuSite/technical/2016/12/01/tax-rates-compared-to-corruption.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Dota Guide Monte Carlo Simulation&url=http://localhost:4000/LJamesHuSite/technical/python/2019/02/01/dota-guides-monte-carlo-simulation.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
         <i class="fab fa-twitter"></i>
         </a>
         </li>
 
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/LJamesHuSite/technical/2016/12/01/tax-rates-compared-to-corruption.html" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/LJamesHuSite/technical/python/2019/02/01/dota-guides-monte-carlo-simulation.html" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
         <i class="fab fa-facebook-f"></i>
         </a>
         </li>
@@ -162,28 +162,42 @@
 <!--                  -->
 
                 <!-- Post Title -->
-				<h1 class="posttitle">Tax Rates Compared to Corruption</h1>
+				<h1 class="posttitle">Dota Guide Monte Carlo Simulation</h1>
 
 			</div>
 
 			<!-- Post Featured Image -->
-			<img class="featured-image img-fluid" src="http://localhost:4000/LJamesHuSite/assets/images/tax_v_corruption.png" alt="Tax Rates Compared to Corruption">
+			<img class="featured-image img-fluid" src="http://localhost:4000/LJamesHuSite/assets/images/dota2_monte_carlo_bar.png" alt="Dota Guide Monte Carlo Simulation">
 			<!-- End Featured Image -->
 
 			<!-- Post Content -->
 			<div class="article-post">
-				<p>Reddit tends to be a highly liberal place, supporting the idea of higher taxes and more benefits as something good for society and the economy. While this is sometimes true it isn’t always. In particular, one person <a href="https://np.reddit.com/r/bestof/comments/3p0or5/danish_doctor_drops_devastating_dissertation_on/cw2nuz7">stated</a> that Scandinavia’s high taxes and low corruption are indicative of a larger trend of high taxes correlating with less corruption. I wanted to explore this trend, especially since from my own knowledge, countries like Italy are renown for their incredibly high corruption, and certainly have higher taxes than the United States. While the sentiment seems nice, I couldn’t see this necessarily being true. Didn’t make enough sense so I did a simple investigation. The line drawn through is a linear regression but with very poor fit so it must be taken with a grain of salt.</p>
+				<p>Torte de Lini, an old friend that I’ve also been working with to set up technical infrastructure for his <a href="/LJamesHuSite/technical/python/2015/05/01/dota-2-hero-builds-project.html">Dota 2 project</a>, approached me with a new, interesting question. Given that his guides have so many subscribers, how often, and how many people use his guides in a game? While we can’t get the exact numbers, we can come up with a rough estimation given a bunch of numbers that he’s been collecting.</p>
 
-<p>As you can see, the conclusion they drew is not necessarily true. It looks almost wholly random and inconsistent. The narrative posed sounds nice but really needs investigation before it can be stated as fact. I used CPI from <a href="http://www.transparency.org/cpi2014/results/">Transparency International</a> and OECD Tax Wedge information from <a href="http://www.keepeek.com/Digital-Asset-Management/oecd/taxation/taxing-wages-2015_tax_wages-2015-en#page20">the OECD Taxing Wages paper</a>. This was then compiled in Excel for a quick and dirty visualization.</p>
+<p>Given that we know that how many games are played daily (dota.rgp.io), how many games are played for each hero (dotabuff.com), and how many games for a specific hero use a Torte de Lini guide by day (available in-game), we can then get an estimate of how many games have at least one person using a Torte de Lini guide.</p>
 
-<p>Afterwards I <a href="https://np.reddit.com/r/dataisbeautiful/comments/3p5awo/tax_rates_vs_corruptions_perceptions_index_oc/">posted it on reddit</a>, which was somewhat received well by the DataIsBeautiful subreddit and gave me some valuable input on visualization design.</p>
+<p>This was calculated and estimated by using a Monte Carlo simulation method. While it could theoretically be calculated to exact precision given that we have the percents, there are a possible 81,572,506,886,508 possible team combinations, which is an unrealistic amount of calculations required for very little upside. The Monte Carlo simulation created teams of 10 different heroes, based on play rate and calculated the probability of that person using a guide given the numbers provided. This was then run 100,000 times and stored.</p>
+
+<p>Across multiple tests, the percents were fairly stable. So the Monte Carlo simulation shows that roughly 17% of games have no one in the game using a guide, but in the other 83%, at least 1 person uses a guide, which is a pretty remarkable number.</p>
+
+<p><img src="/LJamesHuSite/assets/images/guide_usage_distribution.png" alt="Guide Usage Distribution" /></p>
+
+<p>To semi-validate this data, given the numbers we have, it seems like roughly 15% of all games across all heroes use a Torte de Lini guide, which means that for any individual hero, 85% of games do not. If we take that basic assumption given all heroes are picked equally, the probability of a game having no one using a guide is .85 ^ 10 or 19.68%. Not too far off from what our Monte Carlo simulation shows, so the results look fairly reasonable. So even though only 15% of games played on any individual hero uses a Torte de Lini guide, the combined probability of among 10 people, at least 1 person using a guide is around 83%.</p>
+
+<p>Some assumptions are made that are not representative of the real world. Heroes were selected at random, whereas more realistically, you would assume some level of team composition. There is also the assumption that players will use guides at random, whereas the truth is probably less skilled players use guides more often than skilled players. So realistically, more than 17% of games will have no one using a guide, but there is no better way to calculate this skill based guide usage.</p>
+
+<p>Given the prevalence of the guides’ usage, the results weren’t too surprising. His guides are some of the most popular tools in the Dota 2 community, having reached pretty far and wide for a free project inside Dota 2.</p>
+
+<p>This was posted on <a href="http://tortedelini.com/2018/12/10/5-years-350-million-2018-dota-builds-project-year-review/">his blog site</a> for his 5 year anniversary of the Dota 2 Hero Builds Project.</p>
+
+<p><a href="/LJamesHuSite/assets/files/nyu/Dota 2 Monte Carlo.ipynb">Dota 2 Monte Carlo ipynb</a></p>
 
 			</div>
 
             <!-- Post Date -->
             <p>
             <small>
-                <span class="post-date"><time class="post-date" datetime="2016-12-01">01 Dec 2016</time></span>
+                <span class="post-date"><time class="post-date" datetime="2019-02-01">01 Feb 2019</time></span>
                 
                 </small>
             </p>
@@ -192,6 +206,10 @@
 			<div class="after-post-tags">
 				<ul class="tags">
                     
+                    
+                    <li>
+                     <a href="/LJamesHuSite/category/python/">python</a>
+                    </li>
                     
                     <li>
                      <a href="/LJamesHuSite/category/technical/">technical</a>
@@ -204,10 +222,10 @@
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             
-            <a class="prev d-block col-md-6" href="http://localhost:4000/LJamesHuSite/technical/python/2016/08/01/hearticle.html"> &laquo; Heart-icle</a>
+            <a class="prev d-block col-md-6" href="http://localhost:4000/LJamesHuSite/technical/2018/12/01/making-a-new-personal-site.html"> &laquo; Making A New Personal Site - Jekyll Edition</a>
             
             
-            <a class="next d-block col-md-6 text-lg-right" href="http://localhost:4000/LJamesHuSite/technical/2017/02/01/luminar-extra-life.html">Extra Life 2016 &raquo; </a>
+            <a class="next d-block col-md-6 text-lg-right" href="http://localhost:4000/LJamesHuSite/technical/2019/03/01/musings-on-job-hunting.html">Musings on Job Hunting &raquo; </a>
             
             <div class="clearfix"></div>
             </div>
