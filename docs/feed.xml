@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://localhost:4000/LJamesHuSite/</link>
-    <atom:link href="http://localhost:4000/LJamesHuSite/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Apr 2021 20:26:40 -0700</pubDate>
-    <lastBuildDate>Fri, 09 Apr 2021 20:26:40 -0700</lastBuildDate>
+    <link>https://ljameshu.github.io/LJamesHuSite/</link>
+    <atom:link href="https://ljameshu.github.io/LJamesHuSite/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 09 Apr 2021 20:53:45 -0700</pubDate>
+    <lastBuildDate>Fri, 09 Apr 2021 20:53:45 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -20,8 +20,8 @@
 &lt;p&gt;Tied to that, you just have to apply. If you’re still writing custom cover letters for every job that you apply to, you need to cut back significantly. Out of all the positions I’ve applied to, only 1 company out of 500+ has ever mentioned my cover letter when talking to a real decision maker, and from all the interviewing processes I’ve seen, no real decision maker is given your cover letter because they’re mostly fluff. I would say at most 20% of applications should have a customized cover letter, the rest get a stock cover letter with some minor adjustments. Writing customized cover letters massively slows down your application process, grinding your applications to a halt. Not to mention the massive psychological impact of having spent 15-30 minutes writing a cover letter, for them to completely ghost you.&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Mar 2019 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/LJamesHuSite/technical/2019/03/01/musings-on-job-hunting.html</link>
-        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/2019/03/01/musings-on-job-hunting.html</guid>
+        <link>https://ljameshu.github.io/LJamesHuSite/technical/2019/03/01/musings-on-job-hunting.html</link>
+        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/2019/03/01/musings-on-job-hunting.html</guid>
         
         
         <category>technical</category>
@@ -51,8 +51,8 @@
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/Dota 2 Monte Carlo.ipynb&quot;&gt;Dota 2 Monte Carlo ipynb&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/LJamesHuSite/technical/python/2019/02/01/dota-guides-monte-carlo-simulation.html</link>
-        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/python/2019/02/01/dota-guides-monte-carlo-simulation.html</guid>
+        <link>https://ljameshu.github.io/LJamesHuSite/technical/python/2019/02/01/dota-guides-monte-carlo-simulation.html</link>
+        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/python/2019/02/01/dota-guides-monte-carlo-simulation.html</guid>
         
         
         <category>technical</category>
@@ -88,8 +88,8 @@
 &lt;p&gt;Ultimately, took me a lot of work, lots of googling, but it got to the site that you see now. Now this may change in the future, but this seems pretty good to me. It’s not a image forward, but rather more text forward and really serves some of the things that I immediately wanted.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/LJamesHuSite/technical/2018/12/01/making-a-new-personal-site.html</link>
-        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/2018/12/01/making-a-new-personal-site.html</guid>
+        <link>https://ljameshu.github.io/LJamesHuSite/technical/2018/12/01/making-a-new-personal-site.html</link>
+        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/2018/12/01/making-a-new-personal-site.html</guid>
         
         
         <category>technical</category>
@@ -103,8 +103,8 @@
 &lt;p&gt;This is basically marking the relaunch of the site. Given that Wordpress site felt a little outdated in terms of design, structure, and my own ability to customize it, I decided to move towards a Jekyll solution hosted on Github Pages. Part test, part just fun project to revamp and possibly make a real blog that I can be proud of.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/LJamesHuSite/technical/2018/10/01/hello-world-version-2-electric-boogaloo.html</link>
-        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/2018/10/01/hello-world-version-2-electric-boogaloo.html</guid>
+        <link>https://ljameshu.github.io/LJamesHuSite/technical/2018/10/01/hello-world-version-2-electric-boogaloo.html</link>
+        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/2018/10/01/hello-world-version-2-electric-boogaloo.html</guid>
         
         
         <category>technical</category>
@@ -126,8 +126,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/LJamesHu/LuminarExtraLife/blob/master/itembundler.py&quot;&gt;Luminar Extra Life Code&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Feb 2017 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/LJamesHuSite/technical/2017/02/01/luminar-extra-life.html</link>
-        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/2017/02/01/luminar-extra-life.html</guid>
+        <link>https://ljameshu.github.io/LJamesHuSite/technical/2017/02/01/luminar-extra-life.html</link>
+        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/2017/02/01/luminar-extra-life.html</guid>
         
         
         <category>technical</category>
@@ -143,8 +143,8 @@
 &lt;p&gt;Afterwards I &lt;a href=&quot;https://np.reddit.com/r/dataisbeautiful/comments/3p5awo/tax_rates_vs_corruptions_perceptions_index_oc/&quot;&gt;posted it on reddit&lt;/a&gt;, which was somewhat received well by the DataIsBeautiful subreddit and gave me some valuable input on visualization design.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Dec 2016 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/LJamesHuSite/technical/2016/12/01/tax-rates-compared-to-corruption.html</link>
-        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/2016/12/01/tax-rates-compared-to-corruption.html</guid>
+        <link>https://ljameshu.github.io/LJamesHuSite/technical/2016/12/01/tax-rates-compared-to-corruption.html</link>
+        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/2016/12/01/tax-rates-compared-to-corruption.html</guid>
         
         
         <category>technical</category>
@@ -169,13 +169,13 @@
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/LJamesHu/Heart-icle&quot;&gt;Heart-icle Code on Github&lt;/a&gt;&lt;/p&gt;
 
-&lt;object data=&quot;http://localhost:4000/LJamesHuSite/assets/files/Heart-icle.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
+&lt;object data=&quot;https://ljameshu.github.io/LJamesHuSite/assets/files/Heart-icle.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/Heart-icle.pdf&quot;&gt;Link to Download PDF Presentation&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Aug 2016 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/LJamesHuSite/technical/python/2016/08/01/hearticle.html</link>
-        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/python/2016/08/01/hearticle.html</guid>
+        <link>https://ljameshu.github.io/LJamesHuSite/technical/python/2016/08/01/hearticle.html</link>
+        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/python/2016/08/01/hearticle.html</guid>
         
         
         <category>technical</category>
@@ -196,7 +196,7 @@
 
 &lt;p&gt;The code was written in Python and relied heavily on the BeautifulSoup library. Analysis and visualizations were done using matplotlib and Tableau.&lt;/p&gt;
 
-&lt;object data=&quot;http://localhost:4000/LJamesHuSite/assets/files/YelpDataProject.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
+&lt;object data=&quot;https://ljameshu.github.io/LJamesHuSite/assets/files/YelpDataProject.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
 &lt;hr /&gt;
 
@@ -205,8 +205,8 @@
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/yelpr_East_Village.csv&quot;&gt;Sample Data&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/LJamesHuSite/technical/python/2015/06/01/yelp-data-project.html</link>
-        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/python/2015/06/01/yelp-data-project.html</guid>
+        <link>https://ljameshu.github.io/LJamesHuSite/technical/python/2015/06/01/yelp-data-project.html</link>
+        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/python/2015/06/01/yelp-data-project.html</guid>
         
         
         <category>technical</category>
@@ -225,7 +225,7 @@
 
 &lt;p&gt;The code was written in Python and relied heavily on the BeautifulSoup library to pull information from each of this guides. This was then all compiled into an exe file so Torte de Lini could quickly use it without any Python setup or additional files.&lt;/p&gt;
 
-&lt;object data=&quot;http://localhost:4000/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
+&lt;object data=&quot;https://ljameshu.github.io/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.csv&quot;&gt;Link to Download Sample CSV Data&lt;/a&gt;&lt;/p&gt;
 
@@ -234,8 +234,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/LJamesHu/Dota2SubLikeFav&quot;&gt;Dota2SubLikeFav Bookmarklets on GitHub&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/LJamesHuSite/technical/python/2015/05/01/dota-2-hero-builds-project.html</link>
-        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/python/2015/05/01/dota-2-hero-builds-project.html</guid>
+        <link>https://ljameshu.github.io/LJamesHuSite/technical/python/2015/05/01/dota-2-hero-builds-project.html</link>
+        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/python/2015/05/01/dota-2-hero-builds-project.html</guid>
         
         
         <category>technical</category>
@@ -264,7 +264,7 @@
 
 &lt;p&gt;For our company, we chose J.M. Smuckers and came up with a comprehensive and innovative plan to drive sales through Smuckers’ core values.&lt;/p&gt;
 
-&lt;object data=&quot;http://localhost:4000/LJamesHuSite/assets/files/nyu/SmuckersCaseStudy.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
+&lt;object data=&quot;https://ljameshu.github.io/LJamesHuSite/assets/files/nyu/SmuckersCaseStudy.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/SmuckersCaseStudy.pptx&quot;&gt;Link to Download Powerpoint&lt;/a&gt;&lt;/p&gt;
 
@@ -276,7 +276,7 @@
 
 &lt;p&gt;The project required a thorough analysis covering various risk exposures such as liquidity and credit risk, capital adequacy measures, profitability, and risk management tools that were being used. These gave interesting insights into the bank and also were doubly interesting in how they revealed the rather jarring changes due to the financial crisis in 2008.&lt;/p&gt;
 
-&lt;object data=&quot;http://localhost:4000/LJamesHuSite/assets/files/nyu/SovereignBankAnalysis.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
+&lt;object data=&quot;https://ljameshu.github.io/LJamesHuSite/assets/files/nyu/SovereignBankAnalysis.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
 &lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/SovereignBankAnalysis.pdf&quot;&gt;Link to Download PDF Report&lt;/a&gt;&lt;/p&gt;
 
@@ -295,8 +295,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 01 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/LJamesHuSite/technical/2015/04/01/nyu-projects.html</link>
-        <guid isPermaLink="true">http://localhost:4000/LJamesHuSite/technical/2015/04/01/nyu-projects.html</guid>
+        <link>https://ljameshu.github.io/LJamesHuSite/technical/2015/04/01/nyu-projects.html</link>
+        <guid isPermaLink="true">https://ljameshu.github.io/LJamesHuSite/technical/2015/04/01/nyu-projects.html</guid>
         
         
         <category>technical</category>
