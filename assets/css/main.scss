@@ -13,6 +13,13 @@
 	color: darken(#1C9963, 10%);
 }
 
+.btn.front {
+	@media (max-width:767px) {
+		display: block;
+        max-width: 320px;
+	}
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax"
