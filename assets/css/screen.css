@@ -368,6 +368,10 @@ License: https://www.wowthemes.net/freebies-license/
      .post-top-meta.authorpage {
          text-align:center;
     }
+     .btn.front {
+         display: block;
+         max-width: 320px;
+    }
 }
  .share,.share a {
      color:rgba(0,0,0,.44);
@@ -414,7 +418,7 @@ License: https://www.wowthemes.net/freebies-license/
  .btn.front {
      border-color:#02B875;
      color:#1C9963;
-     padding:3px 10px;
+     padding:5px 16px 7px 16px;
      text-align:center;
      border-radius:999em;
      font-size:0.95rem;
