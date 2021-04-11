@@ -1,1 +1,1 @@
-Sitemap: /LJamesHuSite/sitemap.xml
+Sitemap: /sitemap.xml

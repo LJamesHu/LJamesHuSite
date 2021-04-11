@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>/LJamesHuSite/</link>
-    <atom:link href="/LJamesHuSite/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Apr 2021 12:41:36 -0700</pubDate>
-    <lastBuildDate>Sat, 10 Apr 2021 12:41:36 -0700</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 11 Apr 2021 00:45:43 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Apr 2021 00:45:43 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -20,8 +20,8 @@
 &lt;p&gt;Tied to that, you just have to apply. If you’re still writing custom cover letters for every job that you apply to, you need to cut back significantly. Out of all the positions I’ve applied to, only 1 company out of 500+ has ever mentioned my cover letter when talking to a real decision maker, and from all the interviewing processes I’ve seen, no real decision maker is given your cover letter because they’re mostly fluff. I would say at most 20% of applications should have a customized cover letter, the rest get a stock cover letter with some minor adjustments. Writing customized cover letters massively slows down your application process, grinding your applications to a halt. Not to mention the massive psychological impact of having spent 15-30 minutes writing a cover letter, for them to completely ghost you.&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Mar 2019 00:00:00 -0800</pubDate>
-        <link>/LJamesHuSite/2019/03/01/musings-on-job-hunting.html</link>
-        <guid isPermaLink="true">/LJamesHuSite/2019/03/01/musings-on-job-hunting.html</guid>
+        <link>/2019/03/01/musings-on-job-hunting.html</link>
+        <guid isPermaLink="true">/2019/03/01/musings-on-job-hunting.html</guid>
         
         
         <category>technical</category>
@@ -30,7 +30,7 @@
     
       <item>
         <title>DOTA 2 Guides Monte Carlo Simulation</title>
-        <description>&lt;p&gt;Torte de Lini, an old friend that I’ve also been working with to set up technical infrastructure for his &lt;a href=&quot;/LJamesHuSite/2015/05/01/dota-2-hero-builds-project.html&quot;&gt;Dota 2 Heroes Build Project&lt;/a&gt;, approached me with a new, interesting question. Given that his guides have so many subscribers, how often, and how many people use his guides in a game? While we can’t get the exact numbers, we can come up with a rough estimation given a bunch of numbers that he’s been collecting.&lt;/p&gt;
+        <description>&lt;p&gt;Torte de Lini, an old friend that I’ve also been working with to set up technical infrastructure for his &lt;a href=&quot;/2015/05/01/dota-2-hero-builds-project.html&quot;&gt;Dota 2 Heroes Build Project&lt;/a&gt;, approached me with a new, interesting question. Given that his guides have so many subscribers, how often, and how many people use his guides in a game? While we can’t get the exact numbers, we can come up with a rough estimation given a bunch of numbers that he’s been collecting.&lt;/p&gt;
 
 &lt;p&gt;Given that we know that how many games are played daily (dota.rgp.io), how many games are played for each hero (dotabuff.com), and how many games for a specific hero use a Torte de Lini guide by day (available in-game), we can then get an estimate of how many games have at least one person using a Torte de Lini guide.&lt;/p&gt;
 
@@ -38,7 +38,7 @@
 
 &lt;p&gt;Across multiple tests, the percents were fairly stable. So the Monte Carlo simulation shows that roughly 17% of games have no one in the game using a guide, but in the other 83%, at least 1 person uses a guide, which is a pretty remarkable number.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/LJamesHuSite/assets/images/guide_usage_distribution.png&quot; alt=&quot;Guide Usage Distribution&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/guide_usage_distribution.png&quot; alt=&quot;Guide Usage Distribution&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To semi-validate this data, given the numbers we have, it seems like roughly 15% of all games across all heroes use a Torte de Lini guide, which means that for any individual hero, 85% of games do not. If we take that basic assumption given all heroes are picked equally, the probability of a game having no one using a guide is .85 ^ 10 or 19.68%. Not too far off from what our Monte Carlo simulation shows, so the results look fairly reasonable. So even though only 15% of games played on any individual hero uses a Torte de Lini guide, the combined probability of among 10 people, at least 1 person using a guide is around 83%.&lt;/p&gt;
 
@@ -48,11 +48,11 @@
 
 &lt;p&gt;This was posted on &lt;a href=&quot;http://tortedelini.com/2018/12/10/5-years-350-million-2018-dota-builds-project-year-review/&quot;&gt;his blog site&lt;/a&gt; for his 5 year anniversary of the Dota 2 Hero Builds Project.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/Dota 2 Monte Carlo.ipynb&quot;&gt;Dota 2 Monte Carlo ipynb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/files/nyu/Dota 2 Monte Carlo.ipynb&quot;&gt;Dota 2 Monte Carlo ipynb&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Feb 2019 00:00:00 -0800</pubDate>
-        <link>/LJamesHuSite/2019/02/01/dota-2-guides-monte-carlo-simulation.html</link>
-        <guid isPermaLink="true">/LJamesHuSite/2019/02/01/dota-2-guides-monte-carlo-simulation.html</guid>
+        <link>/2019/02/01/dota-2-guides-monte-carlo-simulation.html</link>
+        <guid isPermaLink="true">/2019/02/01/dota-2-guides-monte-carlo-simulation.html</guid>
         
         
         <category>technical</category>
@@ -67,13 +67,13 @@
 
 &lt;p&gt;I had a site made by my good friend &lt;a href=&quot;https://websitedaytona.com/&quot;&gt;Zak Tan&lt;/a&gt; and it worked for me at the time, but didn’t quite meet my vision, and I wasn’t sure how to move on from there. Most sites are very image heavy, but as a data scientist, my work really wasn’t image heavy overall. I wanted images to play back seat to content.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/LJamesHuSite/assets/images/old_wp_site_2016.png&quot; alt=&quot;Old LJamesHu Wordpress Site&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/old_wp_site_2016.png&quot; alt=&quot;Old LJamesHu Wordpress Site&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Technologically, it also felt a little problematic for me. It was based off Wordpress, which is a fine technology stack, but didn’t work for me. I didn’t really want to keep hosting a Wordpress server that was both cumbersome to manage, but also had so many extra features I wasn’t taking advantage of, and was too difficult for me to modify. If I wanted to change things, the code was a little too bespoke for me to change without learning the full stack. I also had little to no desire to learn PHP, arguably a dying language, and definitely not something really used by data scientists.&lt;/p&gt;
 
 &lt;p&gt;Looking around at the options, a lot of things pointed to using Jekyll. While it’s a bit played out, Jekyll is the language of tech people, who don’t need a WYSIWG editor, who want to get things done quickly, who want to host on GitHub Pages for free.&lt;/p&gt;
 
-&lt;p&gt;After having done some work with getting the &lt;a href=&quot;/LJamesHuSite/2017/02/01/extra-life-2016.html&quot;&gt;Luminar Extra Life Site&lt;/a&gt; online, I felt like GitHub would be the right place to have host my new site.&lt;/p&gt;
+&lt;p&gt;After having done some work with getting the &lt;a href=&quot;/2017/02/01/extra-life-2016.html&quot;&gt;Luminar Extra Life Site&lt;/a&gt; online, I felt like GitHub would be the right place to have host my new site.&lt;/p&gt;
 
 &lt;p&gt;Additionally, I drew a lot of inspiration from &lt;a href=&quot;http://www.lilchen.com/blog/site-redesign-process/&quot;&gt;Lilian Chen&lt;/a&gt;. The website style was very close to what I wanted although far more artistic than I had the ability to continuously do. I wanted to try and tweak her design into something that I would love to use. But it did give me a sense of what I wanted and as a not designer, her breakdown of her approach helped me also refine what I was looking for, and what I didn’t really care about.&lt;/p&gt;
 
@@ -81,15 +81,15 @@
 
 &lt;p&gt;That, combined with Jekyll being relatively poorly documented in my opinion, and it’s just difficult to get things set up. I had to start with something… simpler so I took a look at free Jekyll templates, and immediately &lt;a href=&quot;https://github.com/wowthemesnet/mediumish-theme-jekyll/&quot;&gt;Mediumish&lt;/a&gt;, one of the most used Jekyll templates, spoke to me. Visually it wasn’t quite what I wanted, much more image forward, but structurally it was designed to be copied and modified, and I felt like I could take it the last mile.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/LJamesHuSite/assets/images/mediumish-jekyll-template.png&quot; alt=&quot;Mediumish Jekyll Template&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/mediumish-jekyll-template.png&quot; alt=&quot;Mediumish Jekyll Template&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But in order to reach the certain vision I wanted to implement, it proved to be fairly difficult. Jekyll tech is based off of a combination of Ruby, Liquid templating, and Markdown for the last mile. For someone who has never done this before… it proved… confusing. Most of my experience programming would be in the form of analysis, not design so all of this was new to me.&lt;/p&gt;
 
 &lt;p&gt;Ultimately, took me a lot of work, lots of googling, but it got to the site that you see now. Now this may change in the future, but this seems pretty good to me. It’s not a image forward, but rather more text forward and really serves some of the things that I immediately wanted.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
-        <link>/LJamesHuSite/2018/12/01/making-a-new-personal-site.html</link>
-        <guid isPermaLink="true">/LJamesHuSite/2018/12/01/making-a-new-personal-site.html</guid>
+        <link>/2018/12/01/making-a-new-personal-site.html</link>
+        <guid isPermaLink="true">/2018/12/01/making-a-new-personal-site.html</guid>
         
         
         <category>technical</category>
@@ -103,8 +103,8 @@
 &lt;p&gt;This is basically marking the relaunch of the site. Given that Wordpress site felt a little outdated in terms of design, structure, and my own ability to customize it, I decided to move towards a Jekyll solution hosted on Github Pages. Part test, part just fun project to revamp and possibly make a real blog that I can be proud of.&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Oct 2018 00:00:00 -0700</pubDate>
-        <link>/LJamesHuSite/2018/10/01/hello-world-version-2-electric-boogaloo.html</link>
-        <guid isPermaLink="true">/LJamesHuSite/2018/10/01/hello-world-version-2-electric-boogaloo.html</guid>
+        <link>/2018/10/01/hello-world-version-2-electric-boogaloo.html</link>
+        <guid isPermaLink="true">/2018/10/01/hello-world-version-2-electric-boogaloo.html</guid>
         
         
         <category>technical</category>
@@ -126,8 +126,8 @@
 &lt;p&gt;&lt;a href=&quot;https://github.com/LJamesHu/LuminarExtraLife/blob/master/itembundler.py&quot;&gt;Luminar Extra Life Code&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Feb 2017 00:00:00 -0800</pubDate>
-        <link>/LJamesHuSite/2017/02/01/extra-life-2016.html</link>
-        <guid isPermaLink="true">/LJamesHuSite/2017/02/01/extra-life-2016.html</guid>
+        <link>/2017/02/01/extra-life-2016.html</link>
+        <guid isPermaLink="true">/2017/02/01/extra-life-2016.html</guid>
         
         
         <category>technical</category>
@@ -143,8 +143,8 @@
 &lt;p&gt;Afterwards I &lt;a href=&quot;https://np.reddit.com/r/dataisbeautiful/comments/3p5awo/tax_rates_vs_corruptions_perceptions_index_oc/&quot;&gt;posted it on reddit&lt;/a&gt;, which was somewhat received well by the DataIsBeautiful subreddit and gave me some valuable input on visualization design.&lt;/p&gt;
 </description>
         <pubDate>Thu, 01 Dec 2016 00:00:00 -0800</pubDate>
-        <link>/LJamesHuSite/2016/12/01/tax-rates-compared-to-corruption.html</link>
-        <guid isPermaLink="true">/LJamesHuSite/2016/12/01/tax-rates-compared-to-corruption.html</guid>
+        <link>/2016/12/01/tax-rates-compared-to-corruption.html</link>
+        <guid isPermaLink="true">/2016/12/01/tax-rates-compared-to-corruption.html</guid>
         
         
         <category>technical</category>
@@ -169,13 +169,13 @@
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/LJamesHu/Heart-icle&quot;&gt;Heart-icle Code on Github&lt;/a&gt;&lt;/p&gt;
 
-&lt;object data=&quot;/LJamesHuSite/assets/files/Heart-icle.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
+&lt;object data=&quot;/assets/files/Heart-icle.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
-&lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/Heart-icle.pdf&quot;&gt;Link to Download PDF Presentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/files/Heart-icle.pdf&quot;&gt;Link to Download PDF Presentation&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Aug 2016 00:00:00 -0700</pubDate>
-        <link>/LJamesHuSite/2016/08/01/hearticle.html</link>
-        <guid isPermaLink="true">/LJamesHuSite/2016/08/01/hearticle.html</guid>
+        <link>/2016/08/01/hearticle.html</link>
+        <guid isPermaLink="true">/2016/08/01/hearticle.html</guid>
         
         
         <category>technical</category>
@@ -196,17 +196,17 @@
 
 &lt;p&gt;The code was written in Python and relied heavily on the BeautifulSoup library. Analysis and visualizations were done using matplotlib and Tableau.&lt;/p&gt;
 
-&lt;object data=&quot;/LJamesHuSite/assets/files/YelpDataProject.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
+&lt;object data=&quot;/assets/files/YelpDataProject.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/YelpDataProject.pdf&quot;&gt;Link to Download PDF Report&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/files/YelpDataProject.pdf&quot;&gt;Link to Download PDF Report&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/yelpr_East_Village.csv&quot;&gt;Sample Data&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/files/yelpr_East_Village.csv&quot;&gt;Sample Data&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 -0700</pubDate>
-        <link>/LJamesHuSite/2015/06/01/yelp-data-project.html</link>
-        <guid isPermaLink="true">/LJamesHuSite/2015/06/01/yelp-data-project.html</guid>
+        <link>/2015/06/01/yelp-data-project.html</link>
+        <guid isPermaLink="true">/2015/06/01/yelp-data-project.html</guid>
         
         
         <category>technical</category>
@@ -225,9 +225,9 @@
 
 &lt;p&gt;The code was written in Python and relied heavily on the BeautifulSoup library to pull information from each of this guides. This was then all compiled into an exe file so Torte de Lini could quickly use it without any Python setup or additional files.&lt;/p&gt;
 
-&lt;object data=&quot;/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
+&lt;object data=&quot;/assets/files/guideData-2015-11-14-02-18-12.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
-&lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/guideData-2015-11-14-02-18-12.csv&quot;&gt;Link to Download Sample CSV Data&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/files/guideData-2015-11-14-02-18-12.csv&quot;&gt;Link to Download Sample CSV Data&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;In addition to that, since Torte De Lini has many guides, so it is rather annoying to get people to subscribe to, favorite, or rate his guides. I learned how to make bookmarklets and designed a bookmarklet that allowed people to like, favorite and subscribe to all of his guides in one button press. It was a rather interesting project since I was relatively unfamiliar with bookmarklets and had to figure out how to set it up to work correctly.&lt;/p&gt;
 
@@ -235,11 +235,11 @@
 
 &lt;p&gt;In order to answer the question of how many games have at least one person who used a guide by Torte De Lini, I ran a Monte Carlo simulation to estimate this.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/LJamesHuSite/2019/02/01/dota-2-guides-monte-carlo-simulation.html&quot;&gt;DOTA 2 Guides Monte Carlo Simulation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/2019/02/01/dota-2-guides-monte-carlo-simulation.html&quot;&gt;DOTA 2 Guides Monte Carlo Simulation&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
-        <link>/LJamesHuSite/2015/05/01/dota-2-hero-builds-project.html</link>
-        <guid isPermaLink="true">/LJamesHuSite/2015/05/01/dota-2-hero-builds-project.html</guid>
+        <link>/2015/05/01/dota-2-hero-builds-project.html</link>
+        <guid isPermaLink="true">/2015/05/01/dota-2-hero-builds-project.html</guid>
         
         
         <category>technical</category>
@@ -264,13 +264,13 @@
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/LJamesHu/Fortune500Scraper&quot;&gt;Fortune 500 Scraping Code on Github&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/Fortune500Data.csv&quot;&gt;Download Scraped Fortune 500 Data&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/files/nyu/Fortune500Data.csv&quot;&gt;Download Scraped Fortune 500 Data&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For our company, we chose J.M. Smuckers and came up with a comprehensive and innovative plan to drive sales through Smuckers’ core values.&lt;/p&gt;
 
-&lt;object data=&quot;/LJamesHuSite/assets/files/nyu/SmuckersCaseStudy.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
+&lt;object data=&quot;/assets/files/nyu/SmuckersCaseStudy.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
-&lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/SmuckersCaseStudy.pptx&quot;&gt;Link to Download Powerpoint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/files/nyu/SmuckersCaseStudy.pptx&quot;&gt;Link to Download Powerpoint&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;sovereign-bank-risk-study&quot;&gt;Sovereign Bank Risk Study&lt;/h2&gt;
 
@@ -280,28 +280,28 @@
 
 &lt;p&gt;The project required a thorough analysis covering various risk exposures such as liquidity and credit risk, capital adequacy measures, profitability, and risk management tools that were being used. These gave interesting insights into the bank and also were doubly interesting in how they revealed the rather jarring changes due to the financial crisis in 2008.&lt;/p&gt;
 
-&lt;object data=&quot;/LJamesHuSite/assets/files/nyu/SovereignBankAnalysis.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
+&lt;object data=&quot;/assets/files/nyu/SovereignBankAnalysis.pdf&quot; width=&quot;100%&quot; height=&quot;600&quot; type=&quot;application/pdf&quot;&gt;&lt;/object&gt;
 
-&lt;p&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/SovereignBankAnalysis.pdf&quot;&gt;Link to Download PDF Report&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/files/nyu/SovereignBankAnalysis.pdf&quot;&gt;Link to Download PDF Report&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;other-projects&quot;&gt;Other Projects&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/2015/06/01/yelp-data-project.html&quot;&gt;Practical Data Science - Yelp Data Project&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/GlobalPerspectivesMexico.pdf&quot;&gt;Global Perspectives on Enterprise Systems – Mexico: Problems, Strengths and the Path&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/GlobalPerspectivesIndiaPresentation.pdf&quot;&gt;Global Perspectives on Enterprise Systems – India Presentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/GrupoDammAnalysis.pdf&quot;&gt;International Studies Program – Grupo Damm Analysis Presentation&lt;/a&gt;: A class presentation structured around learning about international business, featuring a one week trip to Barcelona to learn and study the culture.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/EconomicsOfPhilanthropy.pdf&quot;&gt;The Economics of Philanthropy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/EmergingMarketsPeru.pdf&quot;&gt;Topics in Emerging Financial Markets – Peru Presentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/Canon.pdf&quot;&gt;Canon Presentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/CanonCSR.pdf&quot;&gt;Canon Corporate Social Responsibility Presentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/CanonVSmartphones.pdf&quot;&gt;Canon and the Smartphone Threat&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/LJamesHuSite/assets/files/nyu/KindleFirePublishers.pdf&quot;&gt;Kindle Fire Presentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/2015/06/01/yelp-data-project.html&quot;&gt;Practical Data Science - Yelp Data Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/assets/files/nyu/GlobalPerspectivesMexico.pdf&quot;&gt;Global Perspectives on Enterprise Systems – Mexico: Problems, Strengths and the Path&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/assets/files/nyu/GlobalPerspectivesIndiaPresentation.pdf&quot;&gt;Global Perspectives on Enterprise Systems – India Presentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/assets/files/nyu/GrupoDammAnalysis.pdf&quot;&gt;International Studies Program – Grupo Damm Analysis Presentation&lt;/a&gt;: A class presentation structured around learning about international business, featuring a one week trip to Barcelona to learn and study the culture.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/assets/files/nyu/EconomicsOfPhilanthropy.pdf&quot;&gt;The Economics of Philanthropy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/assets/files/nyu/EmergingMarketsPeru.pdf&quot;&gt;Topics in Emerging Financial Markets – Peru Presentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/assets/files/nyu/Canon.pdf&quot;&gt;Canon Presentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/assets/files/nyu/CanonCSR.pdf&quot;&gt;Canon Corporate Social Responsibility Presentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/assets/files/nyu/CanonVSmartphones.pdf&quot;&gt;Canon and the Smartphone Threat&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/assets/files/nyu/KindleFirePublishers.pdf&quot;&gt;Kindle Fire Presentation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 01 Apr 2015 00:00:00 -0700</pubDate>
-        <link>/LJamesHuSite/2015/04/01/nyu-projects.html</link>
-        <guid isPermaLink="true">/LJamesHuSite/2015/04/01/nyu-projects.html</guid>
+        <link>/2015/04/01/nyu-projects.html</link>
+        <guid isPermaLink="true">/2015/04/01/nyu-projects.html</guid>
         
         
         <category>business</category>
