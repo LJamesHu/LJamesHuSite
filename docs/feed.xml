@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Apr 2021 13:23:57 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Apr 2021 13:23:57 -0700</lastBuildDate>
+    <pubDate>Tue, 13 Apr 2021 01:53:19 -0700</pubDate>
+    <lastBuildDate>Tue, 13 Apr 2021 01:53:19 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -217,7 +217,7 @@
     
       <item>
         <title>Dota 2 Hero Builds Project</title>
-        <description>&lt;p&gt;The Dota 2 Hero Builds Project is a project my friend &lt;a href=&quot;https://twitter.com/tortedelini&quot;&gt;Michael Cohen&lt;/a&gt; started. I provide a lot of the technical support to his project so he can get it running smoothly. I host his site &lt;a href=&quot;http://tortedelini.com/&quot;&gt;Armchair Athleticism / Torte De Lini.com&lt;/a&gt; on my own VPS server on a WordPress installation. I have also provided significant data analysis assistance, being a big part of his &lt;a href=&quot;http://tortedelini.com/2018/12/10/5-years-350-million-2018-dota-builds-project-year-review/&quot;&gt;5 years, 350 million&lt;/a&gt;, &lt;a href=&quot;http://tortedelini.com/2018/02/10/4-years-275-million-2017-dota-builds-project-year-review/&quot;&gt;4 years, 275 million&lt;/a&gt;, &lt;a href=&quot;http://tortedelini.com/2016/11/17/3-years-170-million-dota-builds-project-year-review/&quot;&gt;3 years, 170 million&lt;/a&gt;, &lt;a href=&quot;http://tortedelini.com/2015/10/28/2-years-100-million-dota-builds-project-overview/&quot;&gt;2 years, 100 million&lt;/a&gt;, and &lt;a href=&quot;http://tortedelini.com/2014/11/17/1-year-40-million-dota-builds-project-overview/&quot;&gt;1 Year, 40 million&lt;/a&gt; subscriptions benchmark articles and analysis, assisting in the data visualization and writing.&lt;/p&gt;
+        <description>&lt;p&gt;The Dota 2 Hero Builds Project is a project my friend &lt;a href=&quot;https://twitter.com/tortedelini&quot;&gt;Michael Cohen&lt;/a&gt; started. I provide a lot of the technical support to his project so he can get it running smoothly. I host his site &lt;a href=&quot;http://tortedelini.com/&quot;&gt;Armchair Athleticism / Torte De Lini.com&lt;/a&gt; on my own VPS server on a WordPress installation. I have also provided significant data analysis assistance, being a big part of his &lt;a href=&quot;http://tortedelini.com/2018/12/10/5-years-350-million-2018-dota-builds-project-year-review/&quot;&gt;5 years, 350 million&lt;/a&gt;, &lt;a href=&quot;http://tortedelini.com/2018/02/10/4-years-275-million-2017-dota-builds-project-year-review/&quot;&gt;4 years, 275 million&lt;/a&gt;, &lt;a href=&quot;http://tortedelini.com/2016/11/17/3-years-170-million-dota-builds-project-year-review/&quot;&gt;3 years, 170 million&lt;/a&gt;, &lt;a href=&quot;http://tortedelini.com/2015/10/28/2-years-100-million-dota-builds-project-overview/&quot;&gt;2 years, 100 million&lt;/a&gt;, and &lt;a href=&quot;http://tortedelini.com/2014/11/17/1-year-40-million-dota-builds-project-overview/&quot;&gt;1 Year, 40 million&lt;/a&gt; subscriptions benchmark articles and analysis, assisting in the data visualization and writing. My work with him has helped him secure commercial sponsorships.&lt;/p&gt;
 
 &lt;p&gt;To assist in getting statistics for all of the over 100 guides, I created a data collection scraper and analyzer for near instant calculation and parsing of the data. Normally it would take up to an hour to manually calculate and pull data every 2 weeks, which was automated into a single script that collects all the data and outputs a csv for intake.&lt;/p&gt;
 
