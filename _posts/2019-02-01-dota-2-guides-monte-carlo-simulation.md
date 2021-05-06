@@ -24,4 +24,4 @@ Given the prevalence of the guides' usage, the results weren't too surprising. H
 
 This was posted on [his blog site](http://tortedelini.com/2018/12/10/5-years-350-million-2018-dota-builds-project-year-review/) for his 5 year anniversary of the Dota 2 Hero Builds Project.
 
-[Dota 2 Monte Carlo ipynb]({{site.baseurl}}/assets/files/nyu/Dota 2 Monte Carlo.ipynb)
+[Dota 2 Monte Carlo ipynb](https://github.com/LJamesHu/LJamesHuSite/blob/master/assets/files/Dota%202%20Monte%20Carlo.ipynb)
