@@ -3,7 +3,6 @@ layout: post
 title:  "Yelp Data Project"
 categories: [ technical, python ]
 image: assets/images/yelp.png
-featured: true
 comments: true
 ---
 Yelp is the premier site of restaurant review and rating data in the United States. Although Yelp has an API, it's not quite sufficient for any meaningful analysis.
