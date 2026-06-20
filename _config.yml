@@ -1,11 +1,13 @@
 # Site
 name: "James Hu"
+title: "James Hu"
 # description: "Jekyll Template for Blogging"
 # meta_description: "Jekyll template, Medium styled, free for bloggers."
+url: "https://LJamesHu.com"
+baseurl: ""
+repository: "LJamesHu/LJamesHuSite"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-# url: https://ljameshu.github.io
-# baseurl: /LJamesHuSite
 google_analytics: 'UA-55715114-1'
 disqus: 'ljameshu'
 # mailchimp-list:
@@ -23,37 +25,25 @@ authors:
     # twitter: https://twitter.com/wowthemesnet
     # description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
 
-# Plugins
+# Plugins (GitHub Pages-supported allow-list only)
 plugins:
-  - jekyll-paginate-v2
-  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
 
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/:name/'
-
-# # Pagination
-# paginate: 6
-# paginate_path: /page:num/
-
-pagination:
-  enabled: true
-  sort_field: 'date'
-  sort_reverse: true
-  # permalink: '/:num/'
-  trail:
-    before: 2
-    after: 2
+# Pagination (jekyll-paginate v1 — the only paginator GitHub Pages supports).
+# Paginates blog/index.html: page 1 at /blog/, page 2+ at /blog/page2/ ...
+paginate: 9
+paginate_path: "/blog/page:num/"
 
 # Other
 markdown: kramdown
 highlighter: rouge
-destination: docs
-keep_files: ['CNAME']
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor
   - .jekyll-cache
+  - .sass-cache
