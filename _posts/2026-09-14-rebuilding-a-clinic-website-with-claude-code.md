@@ -59,7 +59,7 @@ When I was happy, it committed and pushed. It noticed my local tooling config in
 
 ## Caveats
 
-The new site is live on GitHub Pages. The custom domain, as of writing, still points at the old host and serves the 2013 version. The AI did its job. The DNS change is on me, and I haven't done it. So the "after" screenshot above is real, but if you go to the clinic's actual URL today you'll get the "before." Very on brand.
+The AI did its job in an afternoon back in June. The clinic's actual domain kept serving the 2013 version for months afterward, because pointing it at the new site was on me and I didn't get around to it. Very on brand. That's finally fixed, so the "after" screenshot is what you get at [acupuncturepainmgmt.com](https://acupuncturepainmgmt.com) now.
 
 Also, this went well partly because the starting point was tiny: one page, no backend, no build step. I wouldn't extrapolate this to a real application.
 
