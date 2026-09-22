@@ -13,6 +13,8 @@ To assist in getting statistics for all of the over 100 guides, I created a data
 
 [Dota 2 Guide Info Scraper on GitHub](https://github.com/LJamesHu/Dota2GuideInfoScraper)
 
+*Update, September 2026: the scraper broke after ten years and got rebuilt around the Steam Web API. A run went from five hours to under a second. [Details here]({% post_url 2026-09-22-five-hours-to-one-second-fixing-a-ten-year-old-scraper %}).*
+
 The code was written in Python and relied heavily on the BeautifulSoup library to pull information from each of this guides. This was then all compiled into an exe file so Torte de Lini could quickly use it without any Python setup or additional files.
 
 <object data="{{site.url}}{{site.baseurl}}/assets/files/guideData-2015-11-14-02-18-12.pdf" width="100%" height="600" type='application/pdf'></object>

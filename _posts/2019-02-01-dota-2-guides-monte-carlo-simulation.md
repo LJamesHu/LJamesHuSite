@@ -25,3 +25,5 @@ Given the prevalence of the guides' usage, the results weren't too surprising. H
 This was posted on [his blog site](http://tortedelini.com/2018/12/10/5-years-350-million-2018-dota-builds-project-year-review/) for his 5 year anniversary of the Dota 2 Hero Builds Project.
 
 [Dota 2 Monte Carlo ipynb](https://github.com/LJamesHu/LJamesHuSite/blob/master/assets/files/Dota%202%20Monte%20Carlo.ipynb)
+
+*Update, September 2026: it turns out Steam's Web API records games played with a guide selected, so the number this simulation was estimating is now [pulled directly]({% post_url 2026-09-22-five-hours-to-one-second-fixing-a-ten-year-old-scraper %}): about 5.18 billion games across all of Torte's guides.*
